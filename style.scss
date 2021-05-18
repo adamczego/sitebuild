@@ -1,0 +1,41 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css";
+
+* {
+  font-size: 8px;
+}
+
+.page {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  max-width: 50rem;
+  // margin: auto;
+  // // width: 50%;
+  // border: 3px solid green;
+}
+
+.input, .checkbox {
+  margin: 2rem;
+}
+
+
+.form-title {
+  color: red;
+  font-size: 2.5rem;
+  margin: 2rem;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.reg-form {
+  // max-width: 400px;
+}
+
