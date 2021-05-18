@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    image: sitebuild
+    build: .
+    container_name: sitebuild
+    restart: always
+    ports:
+      - "8080:80"
